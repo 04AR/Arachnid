@@ -82,7 +82,10 @@ nav {
 }
 
 
+.column{
+    padding: 10px;
 
+}
 
 .box {
     border: 3px solid black;
@@ -128,6 +131,7 @@ nav {
     
 
 }
+
 #productTitle{
     margin: 5px;
     
@@ -136,6 +140,37 @@ nav {
     margin: 5px;
     font-weight: bold;
 }
+.Darkpattern{
+    margin-left: auto;
+    margin-right: auto;
+  justify-content: center;
+}
+#noOfPatterns{
+    font-weight: bold;
+}
+#number{
+    color: #F9764C;
+    font-size: 35px;
+
+
+}
 #productvalidity{
-    text-transform: capitalize;
+    padding: 8px;
+    text-align: justify;
+}
+.PatternCategory{
+    margin-left: auto;
+    margin-right: auto;
+  justify-content: center;
+
+}
+#ul li {
+    color: #F9764C;
+    font-size: 18px;
+    
+}
+.PatternCategory p {
+    font-weight: bold; 
+    font-size: 20px;
+   
 }
