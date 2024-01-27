@@ -139,6 +139,7 @@ nav {
 #pT{
     margin: 5px;
     font-weight: bold;
+    font-size: 20px;
 }
 .Darkpattern{
     margin-left: auto;
@@ -147,6 +148,7 @@ nav {
 }
 #noOfPatterns{
     font-weight: bold;
+    font-size: 20px;
 }
 #number{
     color: #F9764C;
@@ -167,7 +169,7 @@ nav {
 #ul li {
     color: #F9764C;
     font-size: 18px;
-    
+
 }
 .PatternCategory p {
     font-weight: bold; 
