@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Dark Pattern Detector",
+  "version": "1.0",
+  "description": "Detect dark patterns on Amazon and Flipkart",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["*://www.amazon.in/*", "*://www.flipkart.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+  
+}
