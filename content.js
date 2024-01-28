@@ -1,4 +1,4 @@
-
+import * as API from 'onode_modules\openai\index.mjs';
 
 window.onload = function() {
   // Your code to run after the webpage has fully loaded
