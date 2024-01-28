@@ -3,7 +3,6 @@
 window.onload = function() {
   // Your code to run after the webpage has fully loaded
   console.log(keywords);
-  console.log(OpenAI);
   var pageText = document.body.innerText.toLowerCase();
 
   // Check if each keyword is present in the page text
