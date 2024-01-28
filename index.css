@@ -1,6 +1,6 @@
 html{
-   
-    width: 550px;
+    height: 1100px;
+    width: 700px;
 }
 
 body {
@@ -82,9 +82,10 @@ nav {
 }
 
 
-.column{
-    padding: 10px;
-
+.left-column,
+.right-column {
+    
+    padding: 20px;
 }
 
 .box {
@@ -105,7 +106,7 @@ nav {
     font-size: 30px;
     
     justify-content: space-evenly;
-    margin: 2px; /* Added margin for spacing */
+    margin: 10px 0; /* Added margin for spacing */
     
     height: 30px; /* Set the height to match the box height */
 }
@@ -115,64 +116,11 @@ nav {
     color: #F9764C;
     margin: 0 4px;
 }
-#star1{
-    color: grey ;
-}
 
-#website{
+#arachnid{
     color:#10172A;
-    font-size:20px;
+    font-size:15px;
     font-family: 'Fantasy';
     font-weight: bold;
 
-}
-#productTitleDiv{
-    display: flex;
-    
-
-}
-
-#productTitle{
-    margin: 5px;
-    
-}
-#pT{
-    margin: 5px;
-    font-weight: bold;
-    font-size: 20px;
-}
-.Darkpattern{
-    margin-left: auto;
-    margin-right: auto;
-  justify-content: center;
-}
-#noOfPatterns{
-    font-weight: bold;
-    font-size: 20px;
-}
-#number{
-    color: #F9764C;
-    font-size: 35px;
-
-
-}
-#productvalidity{
-    padding: 8px;
-    text-align: justify;
-}
-.PatternCategory{
-    margin-left: auto;
-    margin-right: auto;
-  justify-content: center;
-
-}
-#ul li {
-    color: #F9764C;
-    font-size: 18px;
-
-}
-.PatternCategory p {
-    font-weight: bold; 
-    font-size: 20px;
-   
 }

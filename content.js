@@ -1,13 +1,17 @@
-// Replace 'your-element-id' with the specific ID you want to extract
-const elementId = 'productTitle';
 
-function extractElementId() {
-  const element = document.getElementById(elementId);
-  if (element) {
-    const extractedValue = element.innerText || element.textContent;
-    chrome.runtime.sendMessage({ type: 'setElementId', value: extractedValue });
-  }
-}
 
-// Run the function when the page is fully loaded
-window.onload = extractElementId;
+window.onload = function() {
+  // Your code to run after the webpage has fully loaded
+  console.log(keywords);
+  var pageText = document.body.innerText.toLowerCase();
+
+  // Check if each keyword is present in the page text
+  for (var i = 0; i < keywords.length; i++) {
+    var keyword = keywords[i].toLowerCase();
+
+    if (pageText.includes(keyword)) {
+      console.log('Keyword found:', keyword);
+    }
+
+}};
+
