@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "matches": ["*://www.amazon.in/*", "*://www.flipkart.com/*"],
-      "js": ["content.js", "keywords.js"]
+      "js": ["content.js", "keywords.js", "api_key.js"]
     }
   ]
   
